@@ -1,8 +1,8 @@
 # Content Creator Framework
 
-Framework de création de contenu multi-plateforme pour Claude Code.
+Multi-platform content creation framework for Claude Code.
 
-**Optimisé tokens** | **Rétention-focused** | **Marketing-driven**
+**Token-optimized** | **Retention-focused** | **Marketing-driven**
 
 ## Installation
 
@@ -11,130 +11,130 @@ Framework de création de contenu multi-plateforme pour Claude Code.
 claude plugins install content-creation-agents
 ```
 
-## Plateformes Supportées
+## Supported Platforms
 
-| Platform | Optimisation |
+| Platform | Optimization |
 |----------|--------------|
 | 📱 TikTok | Discovery, trends, watch time |
 | 📸 Instagram | Community, saves, Reels |
 | ▶️ YouTube | SEO, retention, Shorts |
 | 🎮 Twitch | Live, engagement, clips |
 
-## Commandes
+## Commands
 
-### Idéation & Stratégie
+### Ideation & Strategy
 
 ```bash
 /cc:ideate [niche] --platform tt --viral
 ```
-Génère 10+ idées avec hooks, angles uniques et scores de viralité.
+Generate 10+ ideas with hooks, unique angles and virality scores.
 
 ```bash
 /cc:calendar --month --platforms ig,tt
 ```
-Planning éditorial 30 jours avec thèmes et batch production.
+30-day editorial planning with themes and batch production.
 
 ```bash
 /cc:trend [niche] --actionable
 ```
-Veille tendances avec opportunités scorées et timing.
+Trend monitoring with scored opportunities and timing.
 
 ### Production
 
 ```bash
 /cc:script [topic] --platform tt --duration 60s
 ```
-Script complet avec timestamps, hooks, pattern interrupts et CTA.
+Complete script with timestamps, hooks, pattern interrupts and CTA.
 
 ```bash
 /cc:hook [topic] --style controversial --test
 ```
-5 accroches haute rétention avec variantes A/B.
+5 high-retention hooks with A/B variants.
 
 ```bash
 /cc:series [theme] --episodes 5 --format weekly
 ```
-Série complète avec arc narratif et cliffhangers.
+Complete series with narrative arc and cliffhangers.
 
-### Optimisation
+### Optimization
 
 ```bash
 /cc:repurpose [content] --from yt --to ig,tt
 ```
-Adaptation cross-plateforme avec specs optimisées.
+Cross-platform adaptation with optimized specs.
 
 ```bash
 /cc:analyze [@account] --recommendations
 ```
-Analyse de performance avec insights actionnables.
+Performance analysis with actionable insights.
 
-## Agents Spécialisés
+## Specialized Agents
 
-Les agents s'activent automatiquement selon le contexte :
+Agents activate automatically based on context:
 
 | Agent | Expertise | Auto-Activation |
 |-------|-----------|-----------------|
-| `cc-strategist` | Vision globale, positionnement | Planning, stratégie |
-| `cc-hook-master` | Rétention, psychologie attention | Scripts, hooks |
-| `cc-scriptwriter` | Storytelling, pacing | Écriture contenu |
-| `cc-trend-hunter` | Veille, timing | Trends, opportunités |
+| `cc-strategist` | Global vision, positioning | Planning, strategy |
+| `cc-hook-master` | Retention, attention psychology | Scripts, hooks |
+| `cc-scriptwriter` | Storytelling, pacing | Content writing |
+| `cc-trend-hunter` | Monitoring, timing | Trends, opportunities |
 | `cc-platform-expert` | Algos, formats, specs | Adaptation |
 
-## Patterns de Rétention
+## Retention Patterns
 
 ### Hook Patterns (0-3s)
-- **Curiosity Gap** → "Ce que personne ne vous dit sur..."
-- **Controversial** → "Arrêtez de [popular advice]"
-- **Story Tease** → "J'ai tout perdu quand..."
-- **Value Promise** → "3 façons de [benefit] en 30s"
-- **Identity Call-Out** → "Si tu es [group], tu dois savoir..."
+- **Curiosity Gap** → "What nobody tells you about..."
+- **Controversial** → "Stop doing [popular advice]"
+- **Story Tease** → "I lost everything when..."
+- **Value Promise** → "3 ways to [benefit] in 30s"
+- **Identity Call-Out** → "If you're [group], you need to know..."
 
 ### Retention Patterns (Mid)
-- **Open Loops** → Maintien de curiosité
+- **Open Loops** → Maintain curiosity
 - **Pattern Interrupts** → Reset attention (every 7-15s)
-- **Value Stacking** → Escalation de valeur
-- **Story Peaks** → Pics émotionnels
+- **Value Stacking** → Value escalation
+- **Story Peaks** → Emotional peaks
 
 ### Engagement Patterns
-- **Comment Bait** → "Team A ou Team B ?"
-- **Save Trigger** → Contenu à haute utilité
-- **Share Trigger** → Contenu identitaire/émotionnel
+- **Comment Bait** → "Team A or Team B?"
+- **Save Trigger** → High-utility content
+- **Share Trigger** → Identity/emotional content
 
-## Flags Globaux
+## Global Flags
 
 ```bash
---platform [ig|tt|yt|tw|all]  # Plateforme cible
---niche [niche]               # Contexte niche
---tone [edu|fun|pro|raw]      # Tonalité
---duration [15s|30s|60s|3m]   # Format durée
---viral                       # Optimise viralité
---evergreen                   # Contenu intemporel
---batch                       # Output batch production
+--platform [ig|tt|yt|tw|all]  # Target platform
+--niche [niche]               # Niche context
+--tone [edu|fun|pro|raw]      # Tone
+--duration [15s|30s|60s|3m]   # Duration format
+--viral                       # Optimize virality
+--evergreen                   # Timeless content
+--batch                       # Batch production output
 ```
 
-## Exemples d'Usage
+## Usage Examples
 
-### Workflow Création Rapide
+### Quick Creation Workflow
 ```bash
-/cc:trend fitness                    # Identifier tendances
-/cc:ideate fitness --trend --viral   # Idées basées tendances
-/cc:script [idea] --platform tt      # Script adapté
+/cc:trend fitness                    # Identify trends
+/cc:ideate fitness --trend --viral   # Trend-based ideas
+/cc:script [idea] --platform tt      # Adapted script
 ```
 
-### Workflow Stratégique
+### Strategic Workflow
 ```bash
-/cc:calendar --month --niche tech    # Plan mensuel
-/cc:series "Side Hustle" --episodes 5  # Créer série
-/cc:repurpose [content] --to all     # Multiplier reach
+/cc:calendar --month --niche tech    # Monthly plan
+/cc:series "Side Hustle" --episodes 5  # Create series
+/cc:repurpose [content] --to all     # Multiply reach
 ```
 
-### Workflow Analyse
+### Analysis Workflow
 ```bash
-/cc:analyze @competitor --competitor  # Analyse concurrence
-/cc:trend [niche] --deep             # Veille approfondie
+/cc:analyze @competitor --competitor  # Competitor analysis
+/cc:trend [niche] --deep             # Deep monitoring
 ```
 
-## Structure des Fichiers
+## File Structure
 
 ```
 📁 content-creation-agents/
@@ -147,15 +147,15 @@ Les agents s'activent automatiquement selon le contexte :
 
 ## Token Optimization
 
-Le framework utilise une architecture optimisée :
-- Symboles standardisés (📱 TikTok, 📸 IG, ▶️ YT, 🎮 Twitch)
-- YAML compact pour les outputs structurés
-- Agents auto-activés (pas de config manuelle)
-- Patterns pré-intégrés (pas de re-explanation)
+The framework uses an optimized architecture:
+- Standardized symbols (📱 TikTok, 📸 IG, ▶️ YT, 🎮 Twitch)
+- Compact YAML for structured outputs
+- Auto-activated agents (no manual config)
+- Pre-integrated patterns (no re-explanation)
 
 ## Roadmap
 
-- [ ] Templates visuels (Canva/Figma specs)
+- [ ] Visual templates (Canva/Figma specs)
 - [ ] Analytics integration
 - [ ] A/B testing automation
 - [ ] Scheduling integration
