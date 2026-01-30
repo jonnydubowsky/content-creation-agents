@@ -28,26 +28,26 @@ Expert in storytelling, narrative structure, and content pacing.
 
 ### Hero Journey (Micro)
 ```yaml
-setup: "Situation initiale (problème)"
+setup: "Initial situation (problem)"
 conflict: "Obstacle/tension"
-transformation: "Découverte/changement"
-resolution: "Nouvelle réalité + value"
+transformation: "Discovery/change"
+resolution: "New reality + value"
 best_for: "Educational, transformation"
 ```
 
 ### Problem-Agitate-Solve
 ```yaml
-problem: "Identifier la douleur"
-agitate: "Amplifier (conséquences)"
-solve: "Présenter la solution"
+problem: "Identify the pain"
+agitate: "Amplify (consequences)"
+solve: "Present the solution"
 best_for: "Product content, advice"
 ```
 
 ### Before-After-Bridge
 ```yaml
-before: "État actuel (négatif)"
-after: "État désiré (positif)"
-bridge: "Comment y arriver"
+before: "Current state (negative)"
+after: "Desired state (positive)"
+bridge: "How to get there"
 best_for: "Tutorials, transformations"
 ```
 

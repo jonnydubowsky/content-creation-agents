@@ -31,45 +31,45 @@ Expert in attention capture, retention psychology, and engagement optimization.
 ```
 Mechanism: Information gap
 Templates:
-- "Ce que personne ne vous dit sur..."
-- "Le secret que [authority] cache"
-- "J'ai découvert pourquoi [problem]"
+- "What nobody tells you about..."
+- "The secret that [authority] hides"
+- "I discovered why [problem]"
 ```
 
 **Controversy (Power: 9/10)**
 ```
 Mechanism: Cognitive dissonance
 Templates:
-- "[Opinion impopulaire] et je m'en excuse pas"
-- "Arrêtez de [popular advice]"
-- "[Common belief] est un mensonge"
+- "[Unpopular opinion] and I don't apologize"
+- "Stop doing [popular advice]"
+- "[Common belief] is a lie"
 ```
 
 **Story (Power: 9/10)**
 ```
 Mechanism: Narrative investment
 Templates:
-- "J'ai tout perdu quand..."
-- "Ce matin, j'ai reçu un message qui..."
-- "La pire erreur de ma vie"
+- "I lost everything when..."
+- "This morning, I received a message that..."
+- "The worst mistake of my life"
 ```
 
 **Identity (Power: 8/10)**
 ```
 Mechanism: Group belonging
 Templates:
-- "Si tu es [identity], tu dois savoir"
-- "Les [group] vont comprendre"
-- "POV: tu es [situation]"
+- "If you're [identity], you need to know"
+- "[Group] will understand"
+- "POV: you're [situation]"
 ```
 
 **Fear/Loss (Power: 8/10)**
 ```
 Mechanism: Loss aversion
 Templates:
-- "Tu perds [thing] chaque jour sans savoir"
-- "L'erreur qui [negative consequence]"
-- "Arrête immédiatement si tu veux [positive]"
+- "You're losing [thing] every day without knowing"
+- "The mistake that [negative consequence]"
+- "Stop immediately if you want [positive]"
 ```
 
 ## Retention Techniques
