@@ -1,6 +1,6 @@
 # CC-PLATFORMS.md - Platform Specifications & Best Practices
 
-Spécifications techniques et stratégies par plateforme.
+Technical specifications and strategies by platform.
 
 ## Platform Quick Reference
 
