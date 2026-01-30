@@ -1,6 +1,6 @@
 # CC-COMMANDS.md - Content Creator Command Reference
 
-Commandes complètes pour création de contenu multi-plateforme.
+Complete commands for multi-platform content creation.
 
 ## Command Architecture
 
@@ -16,7 +16,7 @@ token-optimization: aggressive
 
 ## `/cc:ideate [niche/topic] [flags]`
 
-**Purpose**: Génération d'idées de contenu complètes avec hooks et angles
+**Purpose**: Generation of complete content ideas with hooks and angles
 
 ```yaml
 command: "/cc:ideate"
@@ -26,27 +26,27 @@ output-format: structured-ideas
 ```
 
 **Arguments**:
-- `[niche/topic]`: Thématique ou niche cible
-- `--platform [ig|tt|yt|tw|all]`: Plateforme(s) cible
-- `--count [n]`: Nombre d'idées (default: 10)
-- `--trend`: Inclure tendances actuelles
-- `--evergreen`: Focus contenu intemporel
-- `--viral`: Optimiser potentiel viral
-- `--series`: Idées en format série
+- `[niche/topic]`: Topic or target niche
+- `--platform [ig|tt|yt|tw|all]`: Target platform(s)
+- `--count [n]`: Number of ideas (default: 10)
+- `--trend`: Include current trends
+- `--evergreen`: Focus on evergreen content
+- `--viral`: Optimize viral potential
+- `--series`: Ideas in series format
 
 **Output Structure**:
 ```yaml
 idea_output:
   for_each_idea:
-    title: "Titre accrocheur"
-    hook: "Accroche 3-5s"
-    angle: "Angle unique/différenciant"
-    format: "Type de contenu optimal"
+    title: "Catchy title"
+    hook: "3-5s hook"
+    angle: "Unique/differentiating angle"
+    format: "Optimal content type"
     platforms: [best_fit_platforms]
     viral_score: "1-10"
     effort: "low|mid|high"
     content_pillars: [relevant_pillars]
-    cta: "Call-to-action suggéré"
+    cta: "Suggested call-to-action"
 
   summary:
     top_3_viral: [best_ideas]
@@ -63,7 +63,7 @@ idea_output:
 
 ## `/cc:script [idea/topic] [flags]`
 
-**Purpose**: Script complet optimisé pour la rétention
+**Purpose**: Complete script optimized for retention
 
 ```yaml
 command: "/cc:script"
@@ -73,12 +73,12 @@ patterns: [open-loop, story-peaks, pattern-interrupt]
 ```
 
 **Arguments**:
-- `[idea/topic]`: Sujet ou idée à scripter
-- `--platform [ig|tt|yt|tw]`: Plateforme cible (requis)
-- `--duration [15s|30s|60s|3m|10m|long]`: Durée cible
+- `[idea/topic]`: Subject or idea to script
+- `--platform [ig|tt|yt|tw]`: Target platform (required)
+- `--duration [15s|30s|60s|3m|10m|long]`: Target duration
 - `--style [talking|voiceover|cinematic|raw]`: Style
-- `--tone [edu|fun|pro|story|controversial]`: Tonalité
-- `--cta [follow|comment|share|link|none]`: CTA principal
+- `--tone [edu|fun|pro|story|controversial]`: Tone
+- `--cta [follow|comment|share|link|none]`: Primary CTA
 
 **Output Structure**:
 ```yaml
@@ -89,16 +89,16 @@ script_output:
     retention_patterns: [patterns_used]
 
   hook: # 0-3s
-    text: "Accroche exacte"
-    visual: "Description visuelle"
+    text: "Exact hook"
+    visual: "Visual description"
     pattern: "pattern_used"
     alternatives: [2_alternative_hooks]
 
   body:
     segments:
       - timestamp: "0:03-0:15"
-        content: "Contenu segment"
-        visual: "Description visuelle"
+        content: "Segment content"
+        visual: "Visual description"
         retention_technique: "technique_used"
         energy: "high|mid|low"
 
@@ -106,14 +106,14 @@ script_output:
     pattern_interrupts: [interrupt_points]
     story_peaks: [peak_moments]
 
-  climax: # Point culminant
+  climax: # Peak moment
     timestamp: "peak_moment"
-    content: "Contenu climax"
+    content: "Climax content"
     emotional_trigger: "emotion_target"
 
   cta:
-    primary: "CTA principal"
-    secondary: "CTA secondaire"
+    primary: "Primary CTA"
+    secondary: "Secondary CTA"
     placement: "optimal_timing"
 
   production_notes:
@@ -123,23 +123,23 @@ script_output:
     transitions: [transition_suggestions]
 
   caption:
-    text: "Caption optimisée SEO"
+    text: "SEO optimized caption"
     hashtags: [relevant_hashtags]
     emojis: "strategic_emoji_use"
 ```
 
 **Retention Techniques Auto-Applied**:
-- Hook pattern (curiosité immédiate)
-- Open loops (maintien attention)
+- Hook pattern (immediate curiosity)
+- Open loops (attention retention)
 - Pattern interrupts (every 7-15s)
-- Story peaks (pics émotionnels)
+- Story peaks (emotional peaks)
 - Payoff delivery (satisfaction)
 
 ---
 
 ## `/cc:hook [topic/context] [flags]`
 
-**Purpose**: Création d'accroches haute rétention
+**Purpose**: Creation of high-retention hooks
 
 ```yaml
 command: "/cc:hook"
@@ -149,31 +149,31 @@ patterns: [all-hook-patterns]
 ```
 
 **Arguments**:
-- `[topic/context]`: Sujet ou contexte
-- `--platform [ig|tt|yt|tw]`: Plateforme
+- `[topic/context]`: Topic or context
+- `--platform [ig|tt|yt|tw]`: Platform
 - `--style [question|statement|controversial|story|shock]`: Type
-- `--count [n]`: Nombre de hooks (default: 5)
-- `--test`: Inclure variantes A/B
+- `--count [n]`: Number of hooks (default: 5)
+- `--test`: Include A/B variants
 
 **Output Structure**:
 ```yaml
 hooks_output:
   primary_hooks:
-    - hook: "Texte exact du hook"
+    - hook: "Exact hook text"
       pattern: "pattern_used"
-      psychology: "trigger_psychologique"
+      psychology: "psychological_trigger"
       platform_fit: "score/10"
-      visual_cue: "suggestion_visuelle"
+      visual_cue: "visual_suggestion"
       duration: "2-4s"
 
-  variants: # Pour A/B testing
+  variants: # For A/B testing
     hook_1_variants: [3_alternatives]
     hook_2_variants: [3_alternatives]
 
   patterns_explained:
     - pattern: "Curiosity Gap"
-      example: "Ce que personne ne vous dit sur..."
-      why_works: "Crée un vide d'information"
+      example: "What nobody tells you about..."
+      why_works: "Creates information void"
 
   ranking:
     viral_potential: [ranked_hooks]
@@ -184,20 +184,20 @@ hooks_output:
 **Hook Patterns Available**:
 | Pattern | Trigger | Example |
 |---------|---------|---------|
-| Curiosity Gap | FOMO | "Ce que 99% ignorent..." |
-| Controversial | Debate | "Arrêtez de [popular thing]" |
-| Story Open | Investment | "J'ai tout perdu quand..." |
-| Direct Value | Utility | "3 façons de [benefit] en 30s" |
-| Shock | Surprise | "[Stat choquante] et voilà pourquoi" |
-| Authority Challenge | Doubt | "Les experts ont tort sur..." |
-| Personal Attack | Defense | "Si tu fais ça, tu [negative]" |
-| Secret Reveal | Exclusivity | "La méthode secrète des..." |
+| Curiosity Gap | FOMO | "What 99% don't know..." |
+| Controversial | Debate | "Stop doing [popular thing]" |
+| Story Open | Investment | "I lost everything when..." |
+| Direct Value | Utility | "3 ways to [benefit] in 30s" |
+| Shock | Surprise | "[Shocking stat] and here's why" |
+| Authority Challenge | Doubt | "Experts are wrong about..." |
+| Personal Attack | Defense | "If you do this, you [negative]" |
+| Secret Reveal | Exclusivity | "The secret method of..." |
 
 ---
 
 ## `/cc:calendar [period] [flags]`
 
-**Purpose**: Planning éditorial stratégique
+**Purpose**: Strategic editorial planning
 
 ```yaml
 command: "/cc:calendar"
@@ -208,12 +208,12 @@ output: structured-calendar
 
 **Arguments**:
 - `[period]`: week | month | quarter
-- `--platforms [ig,tt,yt,tw]`: Plateformes à planifier
-- `--niche [niche]`: Niche/thématique
-- `--frequency [daily|3x|5x|custom]`: Fréquence publication
+- `--platforms [ig,tt,yt,tw]`: Platforms to plan
+- `--niche [niche]`: Niche/topic
+- `--frequency [daily|3x|5x|custom]`: Publishing frequency
 - `--pillars [p1,p2,p3]`: Content pillars
-- `--events`: Inclure événements/dates clés
-- `--series`: Planifier en séries
+- `--events`: Include key events/dates
+- `--series`: Plan in series
 
 **Output Structure**:
 ```yaml
@@ -246,7 +246,7 @@ calendar_output:
       content_opportunity: "how_to_leverage"
 
   series_planning:
-    - series_name: "Nom de la série"
+    - series_name: "Series name"
       episodes: [episode_titles]
       frequency: "release_cadence"
       platform: "primary_platform"
@@ -265,7 +265,7 @@ calendar_output:
 
 ## `/cc:trend [niche/topic] [flags]`
 
-**Purpose**: Veille tendances et opportunités
+**Purpose**: Trend monitoring and opportunities
 
 ```yaml
 command: "/cc:trend"
@@ -275,16 +275,16 @@ tools: [WebSearch, WebFetch]
 ```
 
 **Arguments**:
-- `[niche/topic]`: Niche à surveiller
-- `--platform [ig|tt|yt|tw|all]`: Plateforme focus
-- `--depth [quick|deep]`: Niveau analyse
-- `--actionable`: Focus opportunités exploitables
+- `[niche/topic]`: Niche to monitor
+- `--platform [ig|tt|yt|tw|all]`: Focus platform
+- `--depth [quick|deep]`: Analysis level
+- `--actionable`: Focus on actionable opportunities
 
 **Output Structure**:
 ```yaml
 trend_output:
   current_trends:
-    - trend: "Description tendance"
+    - trend: "Trend description"
       platform: "origin_platform"
       lifecycle: "emerging|peak|declining"
       relevance: "fit_score/10"
@@ -330,7 +330,7 @@ trend_output:
 
 ## `/cc:repurpose [content] [flags]`
 
-**Purpose**: Adaptation cross-plateforme
+**Purpose**: Cross-platform adaptation
 
 ```yaml
 command: "/cc:repurpose"
@@ -340,10 +340,10 @@ reference: CC-PLATFORMS.md
 ```
 
 **Arguments**:
-- `[content]`: Contenu source (URL, description, ou @file)
-- `--from [ig|tt|yt|tw]`: Plateforme source
-- `--to [ig,tt,yt,tw|all]`: Plateformes cibles
-- `--preserve [hook|story|value]`: Élément à préserver
+- `[content]`: Source content (URL, description, or @file)
+- `--from [ig|tt|yt|tw]`: Source platform
+- `--to [ig,tt,yt,tw|all]`: Target platforms
+- `--preserve [hook|story|value]`: Element to preserve
 
 **Output Structure**:
 ```yaml
@@ -412,7 +412,7 @@ repurpose_output:
 
 ## `/cc:series [theme/concept] [flags]`
 
-**Purpose**: Création de séries de contenu
+**Purpose**: Content series creation
 
 ```yaml
 command: "/cc:series"
@@ -422,9 +422,9 @@ patterns: [narrative-arc, episodic-hooks]
 ```
 
 **Arguments**:
-- `[theme/concept]`: Thème de la série
-- `--platform [ig|tt|yt|tw]`: Plateforme principale
-- `--episodes [n]`: Nombre d'épisodes (default: 5)
+- `[theme/concept]`: Series theme
+- `--platform [ig|tt|yt|tw]`: Primary platform
+- `--episodes [n]`: Number of episodes (default: 5)
 - `--format [daily|weekly|mini]`: Cadence
 - `--style [educational|story|challenge|transformation]`: Type
 
@@ -432,29 +432,29 @@ patterns: [narrative-arc, episodic-hooks]
 ```yaml
 series_output:
   concept:
-    title: "Nom de la série"
-    premise: "Concept en 1 phrase"
-    unique_angle: "Ce qui la différencie"
-    audience_promise: "Ce qu'ils vont obtenir"
+    title: "Series name"
+    premise: "Concept in 1 sentence"
+    unique_angle: "What differentiates it"
+    audience_promise: "What they'll get"
 
   narrative_arc:
-    setup: "Introduction du concept"
+    setup: "Concept introduction"
     rising_action: [escalation_points]
-    climax: "Point culminant"
-    resolution: "Conclusion satisfaisante"
+    climax: "Peak moment"
+    resolution: "Satisfying conclusion"
 
   branding:
-    visual_identity: "Éléments visuels récurrents"
-    intro_template: "Format d'intro reconnaissable"
-    outro_template: "Format de fin + tease"
+    visual_identity: "Recurring visual elements"
+    intro_template: "Recognizable intro format"
+    outro_template: "Ending format + tease"
     hashtag: "#SeriesHashtag"
 
   episodes:
     - episode: 1
-      title: "Titre épisode"
-      hook: "Accroche spécifique"
-      content_summary: "Ce qui est couvert"
-      cliffhanger: "Tease pour le suivant"
+      title: "Episode title"
+      hook: "Specific hook"
+      content_summary: "What is covered"
+      cliffhanger: "Tease for next episode"
       duration: "target_duration"
 
   cross_episode_hooks:
@@ -481,7 +481,7 @@ series_output:
 
 ## `/cc:analyze [content/account] [flags]`
 
-**Purpose**: Analyse de performance et insights
+**Purpose**: Performance analysis and insights
 
 ```yaml
 command: "/cc:analyze"
@@ -491,11 +491,11 @@ tools: [WebFetch, WebSearch]
 ```
 
 **Arguments**:
-- `[content/account]`: URL ou @username à analyser
-- `--platform [ig|tt|yt|tw]`: Plateforme
-- `--depth [quick|full]`: Niveau d'analyse
-- `--competitor`: Mode analyse concurrentielle
-- `--recommendations`: Inclure recommandations actionnables
+- `[content/account]`: URL or @username to analyze
+- `--platform [ig|tt|yt|tw]`: Platform
+- `--depth [quick|full]`: Analysis level
+- `--competitor`: Competitive analysis mode
+- `--recommendations`: Include actionable recommendations
 
 **Output Structure**:
 ```yaml
@@ -566,24 +566,24 @@ analysis_output:
 ### Global Flags
 | Flag | Values | Description |
 |------|--------|-------------|
-| `--platform` | ig, tt, yt, tw, all | Plateforme cible |
-| `--niche` | string | Contexte niche |
-| `--tone` | edu, fun, pro, raw, story | Tonalité |
-| `--duration` | 15s, 30s, 60s, 3m, 10m, long | Durée |
-| `--viral` | - | Optimise viralité |
-| `--evergreen` | - | Contenu intemporel |
-| `--batch` | - | Output pour batch production |
+| `--platform` | ig, tt, yt, tw, all | Target platform |
+| `--niche` | string | Niche context |
+| `--tone` | edu, fun, pro, raw, story | Tone |
+| `--duration` | 15s, 30s, 60s, 3m, 10m, long | Duration |
+| `--viral` | - | Optimize virality |
+| `--evergreen` | - | Evergreen content |
+| `--batch` | - | Output for batch production |
 
 ### Output Flags
 | Flag | Description |
 |------|-------------|
-| `--json` | Output JSON structuré |
-| `--markdown` | Output Markdown formaté |
-| `--minimal` | Output condensé |
-| `--export [path]` | Export vers fichier |
+| `--json` | Structured JSON output |
+| `--markdown` | Formatted Markdown output |
+| `--minimal` | Condensed output |
+| `--export [path]` | Export to file |
 
 ### Agent Control
 | Flag | Description |
 |------|-------------|
-| `--agent [name]` | Force agent spécifique |
-| `--no-agent` | Désactive auto-agents |
+| `--agent [name]` | Force specific agent |
+| `--no-agent` | Disable auto-agents |
